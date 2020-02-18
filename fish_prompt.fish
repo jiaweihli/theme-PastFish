@@ -15,7 +15,7 @@ function fish_prompt
     if [ $USER = "root" ]
         # User is root.
         set color "red"
-    else if [ $USER != (logname) ]
+    else if [ $USER != (whoami) ]
         # User is not login user.
         set color "yellow"
     else
