@@ -64,7 +64,7 @@ function fish_prompt
     if [ (_is_git_dirty) ] # if git modified
       set posColor yellow
     else
-      set posColor black
+      set posColor white
     end
   else
     set posColor red
